@@ -11,8 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('services', function (Blueprint $table) {
-            $table->string('photo_path')->nullable();
+        Schema::table('testimonials', function (Blueprint $table) {
+            //
+            $table->string('status')->default('pending');
         });
     }
 
@@ -21,7 +22,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('services', function (Blueprint $table) {
+        Schema::table('testimonials', function (Blueprint $table) {
             //
         });
     }
