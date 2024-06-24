@@ -27,7 +27,10 @@ export default {
       animation:{
         fadeout: 'fade-out 1s ease-out 0.75s 1',
 
-      }
+      },
+      colors: {
+        'custom-bg-dark': 'rgb(62,60,57)',  
+      },
     },
   },
   plugins: [

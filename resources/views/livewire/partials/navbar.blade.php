@@ -13,11 +13,11 @@
         </div>
         <!-- Collapsible menu items -->
         <div id="navbar-dark" class="font-playfair hs-collapse hidden sm:flex sm:flex-row sm:items-center sm:justify-end gap-4">
-          <a class="font-medium text-3xl text-white px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#" aria-current="page">Home</a>
-          <a class="font-medium text-white text-3xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">Services</a>
-          <a class="font-medium text-white text-3xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">Blog</a>
-          <a class="font-medium text-white text-3xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">About</a>
-          <a class="font-medium text-white text-3xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">Contact </a>
+          <a class="font-medium text-2xl text-white px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#" aria-current="page">Home</a>
+          <a class="font-medium text-white text-2xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">Services</a>
+          <a class="font-medium text-white text-2xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">Blog</a>
+          <a class="font-medium text-white text-2xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">About</a>
+          <a class="font-medium text-white text-2xl px-4 py-2 hover:text-gray-500 dark:hover:text-neutral-400" href="#">Contact </a>
         </div>
       </nav>
     </header>

@@ -15,7 +15,7 @@
     @livewireStyles
 </head>
 
-<body class="bg-state-700 dark:bg-slate-900">
+<body class="bg-state-700 dark:bg-custom-bg-dark">
     @livewire('partials.navbar')
     <main>
         {{ $slot }}
