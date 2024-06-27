@@ -29,6 +29,7 @@ export default {
 
       },
       colors: {
+        'cream':'#FFFDD0',
         'custom-bg-dark': 'rgb(62,60,57)',  
       },
     },
