@@ -45,105 +45,55 @@
     </div>
 
     <!-- services section -->
-    <section class="py-5 mt-16">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h2 class="text-3xl font-bold text-black">Our Services</h2>
-                <p class="mt-2 text-black text-lg">
-                    These are the services we provide in this salon
-                </p>
-            </div>
 
-            <div class="grid grid-cols-1 gap-8 mt-12 md:grid-cols-2 lg:grid-cols-4">
-                <!-- Service 1 -->
-                <div class="relative overflow-hidden bg-white rounded-lg shadow-md group">
-                    <img src="./images/service1.jpg" alt="Service 1"
-                        class="object-cover w-full h-48 transition-transform group-hover:scale-105" />
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <button
-                            class="px-4 py-2 font-semibold text-black transition-colors duration-300 bg-white rounded-lg hover:bg-pink-100">Book
-                            Now</button>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="mb-2 text-lg font-semibold text-pink-900">Oil Massage</h3>
-                        <p class="mb-2 text-sm text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                            soluta?</p>
-                        <div class="flex items-center justify-between">
-                            <span class="text-lg font-bold">$30</span>
-                            <span class="text-sm text-green-500">Available</span>
-                        </div>
-                        <p class="mt-2 text-xs text-black">Duration: 60 minutes</p>
-                    </div>
+    <section class="py-16 mt-10">
+        <div class="max-w-2xl mx-auto px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-black text-center">Service Menu</h2>
+
+            <div class="grid grid-cols-1 mt-20 gap-6 md:grid-cols-5">
+                <!-- Contact -->
+                <div class="text-center">
+                    <img src="./images/nail.png" alt="Contact Icon" class="mx-auto mb-4 w-12 h-16" />
+                    <h3 class="mb-2 text-sm text-gray-500">NAILS</h3>
                 </div>
 
-                <!-- Service 2 -->
-                <div class="relative overflow-hidden bg-white rounded-lg shadow-md group">
-                    <img src="./images/service2.jpg" alt="Service 2"
-                        class="object-cover w-full h-48 transition-transform group-hover:scale-105" />
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <button
-                            class="px-4 py-2 font-semibold text-black transition-colors duration-300 bg-white rounded-lg hover:bg-pink-100">Book
-                            Now</button>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="mb-2 text-lg font-semibold text-pink-900">Facial Treatment</h3>
-                        <p class="mb-2 text-sm text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                            soluta?</p>
-                        <div class="flex items-center justify-between">
-                            <span class="text-lg font-bold">$50</span>
-                            <span class="text-sm text-green-500">Available</span>
-                        </div>
-                        <p class="mt-2 text-xs text-black">Duration: 90 minutes</p>
-                    </div>
+                <!-- Working Hours -->
+                <div class="text-center">
+                    <img src="./images/brows.png" alt="Working Hours Icon" class="mx-auto mb-4 w-12 h-16" />
+                    <h3 class="mb-2 text-sm text-gray-500">BROW</h3>
                 </div>
 
-                <!-- Service 3 -->
-                <div class="relative overflow-hidden bg-white rounded-lg shadow-md group">
-                    <img src="./images/service3.jpg" alt="Service 3"
-                        class="object-cover w-full h-48 transition-transform group-hover:scale-105" />
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <button
-                            class="px-4 py-2 font-semibold text-black transition-colors duration-300 bg-white rounded-lg hover:bg-pink-100">Book
-                            Now</button>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="mb-2 text-lg font-semibold text-pink-900">Haircut & Styling</h3>
-                        <p class="mb-2 text-sm text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                            soluta?</p>
-                        <div class="flex items-center justify-between">
-                            <span class="text-lg font-bold">$40</span>
-                            <span class="text-sm text-green-500">Available</span>
-                        </div>
-                        <p class="mt-2 text-xs text-black">Duration: 45 minutes</p>
-                    </div>
+                <!-- Location -->
+                <div class="text-center">
+                    <img src="./images/hair.png" alt="Location Icon" class="mx-auto mb-4 w-12 h-16" />
+                    <h3 class="mb-2 text-sm text-gray-500">HAIR</h3>
                 </div>
 
-                <!-- Service 4 -->
-                <div class="relative overflow-hidden bg-white rounded-lg shadow-md group">
-                    <img src="./images/service4.jpg" alt="Service 4"
-                        class="object-cover w-full h-48 transition-transform group-hover:scale-105" />
-                    <div class="absolute inset-0 flex items-center justify-center transition-opacity">
-                        <button
-                            class="px-4 py-2 font-semibold text-black transition-colors duration-300 bg-white rounded-lg hover:bg-pink-100">Book
-                            Now</button>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="mb-2 text-lg font-semibold text-pink-900">Manicure & Pedicure</h3>
-                        <p class="mb-2 text-sm text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                            soluta?</p>
-                        <div class="flex items-center justify-between">
-                            <span class="text-lg font-bold">$25</span>
-                            <span class="text-sm text-green-500">Available</span>
-                        </div>
-                        <p class="mt-2 text-xs text-black">Duration: 30 minutes</p>
-                    </div>
+                <!-- Cosmetology -->
+                <div class="text-center">
+                    <img src="./images/cosmetology.png" alt="Cosmetology Icon" class="mx-auto mb-4 w-12 h-16" />
+                    <h3 class="mb-2 text-sm text-gray-500">COSMETOLOGY</h3>
+                </div>
+
+                <!-- Makeup -->
+                <div class="text-center">
+                    <img src="./images/makeup.png" alt="Makeup Icon" class="mx-auto mb-4 w-12 h-16" />
+                    <h3 class="mb-2 text-sm text-gray-500">MAKEUP</h3>
                 </div>
             </div>
-        </div>
-        <div class="flex justify-center mt-10">
-            <button class="px-5 py-3 bg-black text-white">VIEW SERVICE MENU</button>
+            <div class="w-3/4 mx-auto mt-10">
+                <p class="text-center ">Indulge a little longer with a customized facial to help achieve your skin goals
+                    in 60-90 minutes.</p>
+
+            </div>
+            <div class="flex justify-center">
+                <button class="lg:w-2/4 mt-10 md:w-2/4  px-2 py-3 sm:w-full   bg-black hover:bg-gray-900 text-white">
+                    VIEW SERVICE MENU
+                </button>
+            </div>
         </div>
     </section>
+
 
     <!-- about us section  -->
 
@@ -287,7 +237,71 @@
         </div>
     </section>
 
-{{-- gallery section  --}}
+    {{-- product section  --}}
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 class="text-3xl text-center py-5 mb-10 font-bold text-black">Products</h2>
+            <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Product 1 -->
+                <div>
+                    
+                    <div class="relative overflow-hidden  bg-purple-50">
+                        <div class="absolute top-[10px] right-[10px] text-xs bg-white text-black py-1 border border-black px-3 ">Sale!</div>
+                        <img src="./images/product1.png" alt="Blog 1" class="object-cover w-2/3 h-64 my-10  m-auto" />
+                    </div>
+                    <div class="relative p-6">
+                        <h3 class="mt-2 text-md font-bold text-center text-black">Facial Cleanser
+                        <p class="text-sm text-black text-center"><del class="mr-2 text-gray-800 font-light">$25.00</del>$19.00</p>
+                        </h3>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div>
+                    <div class="relative overflow-hidden  bg-purple-50">
+                        <img src="./images/product2.png" alt="Blog 1" class="object-cover w-2/3 h-64 my-10  m-auto" />
+                    </div>
+                    <div class="relative p-6">
+                        <h3 class="mt-2 text-md font-bold text-center text-black">Eye Cream
+                        <p class="text-sm text-black text-center font-light">$54.00</p>
+                        </h3>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div>
+                    <div class="relative overflow-hidden  bg-purple-50">
+                        <div class="absolute top-[10px] right-[10px] text-xs bg-white text-black py-1 border border-black px-3 ">Sale!</div>
+
+                        <img src="./images/product3.png" alt="Blog 1" class="object-cover w-2/3 h-64 my-10  m-auto" />
+                    </div>
+                    <div class="relative p-6">
+                        <h3 class="mt-2 text-md font-bold text-center text-black">Super Glow
+                        <p class="text-sm text-black text-center"><del class="mr-2 text-gray-800 font-light">$28.00</del>$21.00</p>
+                        </h3>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div>
+                    <div class="relative overflow-hidden  bg-purple-50">
+                        <img src="./images/product4.png" alt="Blog 1" class="object-cover w-2/3 h-64 my-10  m-auto" />
+                    </div>
+                    <div class="relative p-6">
+                        <h3 class="mt-2 text-md font-bold text-center text-black">Facial Balancing Gel
+                        <p class="text-sm text-black text-center font-light">$32.00</p>
+                        </h3>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="flex justify-center">
+                <button
+                    class="lg:w-1/4 mt-10 md:w-2/4  px-5 py-3 sm:w-full text-black border border-black hover:bg-black hover:text-white">
+                    VIEW ALL PRODUCTS
+                </button>
+            </div>
+        </div>
+    </section>
+
+    {{-- gallery section  --}}
     <section class="bg-black py-20 px-3">
         <h2 class="text-3xl text-center py-5 mb-5 font-bold text-white">Gallery</h2>
 
@@ -301,33 +315,39 @@
             </div>
             <div class="basis-3/5 flex flex-wrap ">
                 <div class="basis-1/3 h-1/2 w-full  ">
-                        <a href="./images/gallery2.jpg" data-fancybox="gallery" data-caption="Caption #2">
-                            <img src="./images/gallery2.jpg" alt="Gallery Image 2" class="w-11/12 h-[96%] object-cover" />
-                        </a>
+                    <a href="./images/gallery2.jpg" data-fancybox="gallery" data-caption="Caption #2">
+                        <img src="./images/gallery2.jpg" alt="Gallery Image 2"
+                            class="w-11/12 h-[96%] object-cover" />
+                    </a>
                 </div>
                 <div class="basis-1/3 h-1/2 w-full ">
                     <a href="./images/gallery3.jpg" data-fancybox="gallery" data-caption="Caption #4">
-                        <img src="./images/gallery3.jpg" alt="Gallery Image 4" class="w-11/12 h-[96%] object-cover" />
+                        <img src="./images/gallery3.jpg" alt="Gallery Image 4"
+                            class="w-11/12 h-[96%] object-cover" />
                     </a>
                 </div>
                 <div class="basis-1/3 h-1/2 w-full ">
                     <a href="./images/gallery4.jpg" data-fancybox="gallery" data-caption="Caption #4">
-                        <img src="./images/gallery4.jpg" alt="Gallery Image 4" class="w-11/12 h-[96%] object-cover" />
+                        <img src="./images/gallery4.jpg" alt="Gallery Image 4"
+                            class="w-11/12 h-[96%] object-cover" />
                     </a>
                 </div>
                 <div class="basis-1/3 h-1/2 w-full ">
                     <a href="./images/gallery5.jpg" data-fancybox="gallery" data-caption="Caption #5">
-                        <img src="./images/gallery5.jpg" alt="Gallery Image 5" class="w-11/12 mt-3 h-[96%] object-cover" />
+                        <img src="./images/gallery5.jpg" alt="Gallery Image 5"
+                            class="w-11/12 mt-3 h-[96%] object-cover" />
                     </a>
                 </div>
                 <div class="basis-1/3 h-1/2 w-full ">
                     <a href="./images/gallery6.jpg" data-fancybox="gallery" data-caption="Caption #6">
-                        <img src="./images/gallery6.jpg" alt="Gallery Image 6" class="w-11/12 mt-3 h-[96%] object-cover" />
+                        <img src="./images/gallery6.jpg" alt="Gallery Image 6"
+                            class="w-11/12 mt-3 h-[96%] object-cover" />
                     </a>
                 </div>
                 <div class="basis-1/3 h-1/2 w-full ">
                     <a href="./images/gallery7.jpg" data-fancybox="gallery" data-caption="Caption #7">
-                        <img src="./images/gallery7.jpg" alt="Gallery Image 7" class="w-11/12 mt-3 h-[96%] object-cover" />
+                        <img src="./images/gallery7.jpg" alt="Gallery Image 7"
+                            class="w-11/12 mt-3 h-[96%] object-cover" />
                     </a>
                 </div>
 
@@ -346,14 +366,14 @@
     <section class="py-20 bg-pink-50">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <h2 class="text-3xl text-center py-5 mb-10 font-bold text-black">Blogs</h2>
-            <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <!-- Blog 1 -->
                 <div class="relative overflow-hidden transform transition-transform hover:scale-105">
                     <img src="./images/blog1.jpg" alt="Blog 1" class="object-cover w-full h-80" />
                     <div class="absolute inset-0 bg-cream bg-opacity-25 transition-opacity hover:opacity-90"></div>
                     <div class="relative p-6">
                         <p class="text-sm text-gray-500 text-center">June 15, 2024</p>
-                        <h3 class="mt-2 text-xl font-semibold text-center text-black">The Ultimate Guide to Hair Care
+                        <h3 class="mt-2 text-md font-semibold text-center text-black">The Ultimate Guide to Hair Care
                         </h3>
                     </div>
                 </div>
@@ -364,7 +384,7 @@
                     <div class="absolute inset-0 bg-cream bg-opacity-25 transition-opacity hover:opacity-75"></div>
                     <div class="relative p-6">
                         <p class="text-sm text-gray-500 text-center">June 20, 2024</p>
-                        <h3 class="mt-2 text-xl font-semibold text-center text-black">Top 10 Facial Treatments for
+                        <h3 class="mt-2 text-md font-semibold text-center text-black">Top 10 Facial Treatments for
                             Glowing Skin</h3>
                     </div>
                 </div>
@@ -375,7 +395,7 @@
                     <div class="absolute inset-0 bg-cream bg-opacity-25 transition-opacity hover:opacity-75"></div>
                     <div class="relative p-6">
                         <p class="text-sm text-gray-500 text-center">June 25, 2024</p>
-                        <h3 class="mt-2 text-xl font-semibold text-center text-black">The Benefits of Regular Massage
+                        <h3 class="mt-2 text-md font-semibold text-center text-black">The Benefits of Regular Massage
                             Therapy</h3>
                     </div>
                 </div>
@@ -386,14 +406,12 @@
                     <div class="absolute inset-0 bg-cream bg-opacity-25 transition-opacity hover:opacity-75"></div>
                     <div class="relative p-6">
                         <p class="text-sm text-gray-500 text-center">June 30, 2024</p>
-                        <h3 class="mt-2 text-xl font-semibold text-center text-black">Nail Art Trends to Try This
+                        <h3 class="mt-2 text-md font-semibold text-center text-black">Nail Art Trends to Try This
                             Season</h3>
                     </div>
                 </div>
             </div>
             <div class="flex justify-center">
-
-
                 <button
                     class="lg:w-1/4 mt-10 md:w-1/4  px-5 py-3 sm:w-full text-black border border-black hover:bg-black hover:text-white">
                     VIEW ALL POSTS

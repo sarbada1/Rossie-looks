@@ -1,10 +1,10 @@
 <div class="w-full fixed z-50">
   <nav class="top-0 px-8 md:text-white sm:text-black z-20 h-24 my-auto md:flex md:items-center md:justify-between relative navbar-white-bg">
       <div class="flex items-center justify-between w-full h-24">
-          <span class="text-2xl  font-[Poppins] cursor-pointer">
-              Rosie Looks
-          </span>
-          <span class="block text-3xl cursor-pointer md:hidden" onclick="Menu(this)">
+        <div class="">
+          <img src="./images/logo.png" class="h-24" alt="">
+        </div>
+          <span class="block text-3xl text-black cursor-pointer md:hidden" onclick="Menu(this)">
               <ion-icon name="menu" id="menu-icon"></ion-icon>
           </span>
       </div>
